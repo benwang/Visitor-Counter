@@ -1,0 +1,6 @@
+Mozilla,7
+Google,4
+Apple,0
+Internet,0
+Opera,0
+Netscape,0
