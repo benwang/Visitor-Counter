@@ -16,13 +16,17 @@ with every webpage visit.
 
 I used a script from www.php.net to help me figure out what browser is being
 used (along with a bunch of other information that I may use for future
-projects), but then I wrote a java script to help me keep count of the number of
+projects), but then I wrote a java class to help me keep count of the number of
 users using each particular browser (I only account for Mozilla, Google, Apple,
 Internet (Explorer), Opera, and Netscape).
 
 PopularUserPrefs.java keeps track of the number of users in browser.txt and puts
 the new information into browsernew.txt.  I then call swap.py which takes the
-contents of browsernew.txt and writes them into browser.txt.
+contents of browsernew.txt and writes them into browser.txt.  I originally wanted
+to implement sorting/ranking of broswer popularity in nlog(n) by using Java's 
+Priority Queue, but I ran out of time.  I probably could have done what I did in
+Python or PHP, but I thought it was neat to combine PHP, Python and Java together
+in one script!
 
 Now, if you visit the website from Firefox, the site will tell you that you are
 visitor #___, and the ____th user to be using Firefox.
